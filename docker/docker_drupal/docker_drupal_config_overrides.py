@@ -23,7 +23,7 @@ uncomment only this settings which you want to override
 #
 # TMP_PATH = "/tmp"
 #
-# DRUPAL_LOCATION = "app/public_html"
+DRUPAL_LOCATION = "app/public_html"
 #
 # SITE_DIRECTORY = "default"
 #
