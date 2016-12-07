@@ -1,5 +1,5 @@
 web:
-  image: droptica/drupal-apache:xdebug
+  build: ./docker/Dockerfiles/custom-web
   volumes:
     - ./docker/php.ini:/usr/local/etc/php/conf.d/php.ini:ro
     - ./app/public_html:/var/www/html
@@ -7,7 +7,17 @@ web:
   links:
     - mysql:mysql
   environment:
-    VIRTUAL_HOST: visitwrapper.dev,www.visitwrapper.dev
+    VIRTUAL_HOST: api.visitwrapper.dev
+web2:
+  image: droptica/drupal-apache:7-xdebug
+  volumes:
+    - ./docker/php.ini:/usr/local/etc/php/conf.d/php.ini:ro
+    - ./app/front:/var/www/html
+    - ./docker/000-default.conf:/etc/apache2/sites-enabled/000-default.conf:ro
+  links:
+    - mysql:mysql
+  environment:
+    VIRTUAL_HOST: visitwrapper.dev
 mysql:
   image: mysql:5.7
   volumes:
