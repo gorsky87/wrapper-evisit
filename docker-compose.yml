@@ -18,6 +18,15 @@ web2:
     - mysql:mysql
   environment:
     VIRTUAL_HOST: visitwrapper.dev
+web3:
+  image: droptica/drupal-apache:7-xdebug
+  volumes:
+    - ./app/client:/var/www/html
+    - ./docker/000-default.conf:/etc/apache2/sites-enabled/000-default.conf:ro
+  links:
+    - mysql:mysql
+  environment:
+    VIRTUAL_HOST: client.visitwrapper.dev
 mysql:
   image: mysql:5.7
   volumes:
