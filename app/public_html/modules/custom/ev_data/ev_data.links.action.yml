@@ -1,0 +1,20 @@
+entity.ev_visit.add_form:
+  route_name: entity.ev_visit.add_form
+  title: 'Add Ev visit'
+  appears_on:
+    - entity.ev_visit.collection
+entity.ev_host.add_form:
+  route_name: entity.ev_host.add_form
+  title: 'Add Ev host'
+  appears_on:
+    - entity.ev_host.collection
+entity.ev_open.add_form:
+  route_name: entity.ev_open.add_form
+  title: 'Add Ev_open'
+  appears_on:
+    - entity.ev_open.collection
+entity.hours.add_form:
+  route_name: entity.hours.add_form
+  title: 'Add Hours'
+  appears_on:
+    - entity.hours.collection

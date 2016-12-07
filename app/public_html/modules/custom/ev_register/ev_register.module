@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains ev_register.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ev_register_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ev_register module.
+    case 'help.page.ev_register':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Ev Login Register') . '</p>';
+      return $output;
+
+    default:
+  }
+}

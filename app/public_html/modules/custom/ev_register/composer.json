@@ -1,0 +1,14 @@
+{
+  "name": "drupal/ev_register",
+  "type": "drupal-module",
+  "description": "Ev Login Register",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/ev_register",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/ev_register",
+    "source": "http://cgit.drupalcode.org/ev_register"
+  },
+  "require": { }
+}

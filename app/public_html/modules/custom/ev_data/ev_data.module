@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_entity_insert().
+ */
+function ev_data_entity_insert(Drupal\Core\Entity\EntityInterface $entity) {
+  if($entity->getEntityType()->id() == 'ev_token') {
+    $user = \Drupal::currentUser();
+    $domain=$entity->get('field_domain')->getValue()[0]['value'];
+    $token = md5(uniqid($user->getEmail().$domain, true));
+    $entity->set('field_ev_token',$token);
+    $entity->save();
+  }
+}
+

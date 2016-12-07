@@ -1,0 +1,4 @@
+name: 'ev_client_endpoint'
+type: module
+version: '8.x-3.0-beta8'
+core: '8.x'

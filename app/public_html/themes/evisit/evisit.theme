@@ -1,0 +1,5 @@
+<?php
+
+function evisit_preprocess_page(&$variables) {
+
+}

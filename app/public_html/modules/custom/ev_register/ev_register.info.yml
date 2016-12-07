@@ -1,0 +1,5 @@
+name: ev_register
+type: module
+description: Ev Login Register
+core: 8.x
+package: ev_visit

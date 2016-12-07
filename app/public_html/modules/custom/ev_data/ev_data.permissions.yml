@@ -1,0 +1,94 @@
+add ev visit entities:
+  title: 'Create new Ev visit entities'
+
+administer ev visit entities:
+  title: 'Administer Ev visit entities'
+  description: 'Allow to access the administration form to configure Ev visit entities.'
+  restrict access: true
+
+delete ev visit entities:
+  title: 'Delete Ev visit entities'
+
+edit ev visit entities:
+  title: 'Edit Ev visit entities'
+
+access ev visit overview:
+  title: 'Access the Ev visit overview page'
+
+view published ev visit entities:
+  title: 'View published Ev visit entities'
+
+view unpublished ev visit entities:
+  title: 'View unpublished Ev visit entities'
+add ev host entities:
+  title: 'Create new Ev host entities'
+
+administer ev host entities:
+  title: 'Administer Ev host entities'
+  description: 'Allow to access the administration form to configure Ev host entities.'
+  restrict access: true
+
+delete ev host entities:
+  title: 'Delete Ev host entities'
+
+delete own ev host entities:
+  title: 'Delete Own Ev host entities'
+
+edit ev host entities:
+  title: 'Edit Ev host entities'
+
+edit own ev host entities:
+  title: 'Edit own Ev host entities'
+
+access ev host overview:
+  title: 'Access the Ev host overview page'
+
+view published ev host entities:
+  title: 'View published Ev host entities'
+
+view unpublished ev host entities:
+  title: 'View unpublished Ev host entities'
+add ev_open entities:
+  title: 'Create new Ev_open entities'
+
+administer ev_open entities:
+  title: 'Administer Ev_open entities'
+  description: 'Allow to access the administration form to configure Ev_open entities.'
+  restrict access: true
+
+delete ev_open entities:
+  title: 'Delete Ev_open entities'
+
+edit ev_open entities:
+  title: 'Edit Ev_open entities'
+
+access ev_open overview:
+  title: 'Access the Ev_open overview page'
+
+view published ev_open entities:
+  title: 'View published Ev_open entities'
+
+view unpublished ev_open entities:
+  title: 'View unpublished Ev_open entities'
+add hours entities:
+  title: 'Create new Hours entities'
+
+administer hours entities:
+  title: 'Administer Hours entities'
+  description: 'Allow to access the administration form to configure Hours entities.'
+  restrict access: true
+
+delete hours entities:
+  title: 'Delete Hours entities'
+
+edit hours entities:
+  title: 'Edit Hours entities'
+
+access hours overview:
+  title: 'Access the Hours overview page'
+
+view published hours entities:
+  title: 'View published Hours entities'
+
+view unpublished hours entities:
+  title: 'View unpublished Hours entities'

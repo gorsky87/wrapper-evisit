@@ -1,0 +1,22 @@
+{#
+/**
+ * @file ev_visit.html.twig
+ * Default theme implementation to present Ev visit data.
+ *
+ * This template is used when viewing Ev visit pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_ev_visit()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('ev_visit') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

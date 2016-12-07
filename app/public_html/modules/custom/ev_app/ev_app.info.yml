@@ -1,0 +1,10 @@
+name: 'ev_app'
+type: module
+version: '8.x-3.0-beta8'
+core: '8.x'
+dependencies:
+  - options
+  - ev_client_endpoint
+  - ev_data
+  - admin_toolbar
+  - admin_toolbar_tools

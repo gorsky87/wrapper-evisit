@@ -1,0 +1,13 @@
+# Ev_token menu items definition
+entity.ev_token.collection:
+  title: 'Ev_token list'
+  route_name: entity.ev_token.collection
+  description: 'List Ev_token entities'
+  parent: system.admin_structure
+  weight: 100
+
+ev_token.admin.structure.settings:
+  title: Ev_token settings
+  description: 'Configure Ev_token entities'
+  route_name: ev_token.settings
+  parent: system.admin_structure

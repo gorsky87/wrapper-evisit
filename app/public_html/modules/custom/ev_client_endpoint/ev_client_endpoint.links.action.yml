@@ -1,0 +1,5 @@
+entity.ev_token.add_form:
+  route_name: entity.ev_token.add_form
+  title: 'Add Ev_token'
+  appears_on:
+    - entity.ev_token.collection

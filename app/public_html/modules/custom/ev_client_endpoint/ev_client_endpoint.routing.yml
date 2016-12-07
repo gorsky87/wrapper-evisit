@@ -1,0 +1,8 @@
+ev_client_endpoint.endpoint:
+  path: '/ev_visit/endpoint/post'
+  methods:  [POST]
+  defaults:
+    _controller: 'Drupal\ev_client_endpoint\Controller\EvEndpoint::post'
+  requirements:
+    _permission: 'access content'
+  no_cache: 'TRUE'

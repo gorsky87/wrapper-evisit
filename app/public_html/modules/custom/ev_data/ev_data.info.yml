@@ -1,0 +1,8 @@
+name: 'ev_data'
+type: module
+version: '8.x-3.0-beta8'
+core: '8.x'
+dependencies:
+  - options
+  - entity_reference
+  - inline_entity_form

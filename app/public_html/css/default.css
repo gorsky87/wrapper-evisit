@@ -1,0 +1,25 @@
+@import url('calendar.css');
+@import url('custom_1.css');
+
+#ev-container {
+    display: block;
+    height: auto;
+    min-height: 300px;
+    width: 100%;
+}
+.ev-loader {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.timecell {
+    background: rgb(238, 238, 238) none repeat scroll 0 0;
+    border: 2px solid;
+    display: block;
+    font-size: 20px;
+    margin: 2px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,84 @@
+# Ev visit routing definition
+ev_visit.settings_tab:
+  route_name: ev_visit.settings
+  title: 'Settings'
+  base_route: ev_visit.settings
+entity.ev_visit.canonical:
+  route_name: entity.ev_visit.canonical
+  base_route: entity.ev_visit.canonical
+  title: 'View'
+
+entity.ev_visit.edit_form:
+  route_name: entity.ev_visit.edit_form
+  base_route: entity.ev_visit.canonical
+  title: Edit
+
+entity.ev_visit.delete_form:
+  route_name:  entity.ev_visit.delete_form
+  base_route:  entity.ev_visit.canonical
+  title: Delete
+  weight: 10
+
+# Ev host routing definition
+ev_host.settings_tab:
+  route_name: ev_host.settings
+  title: 'Settings'
+  base_route: ev_host.settings
+entity.ev_host.canonical:
+  route_name: entity.ev_host.canonical
+  base_route: entity.ev_host.canonical
+  title: 'View'
+
+entity.ev_host.edit_form:
+  route_name: entity.ev_host.edit_form
+  base_route: entity.ev_host.canonical
+  title: Edit
+
+entity.ev_host.delete_form:
+  route_name:  entity.ev_host.delete_form
+  base_route:  entity.ev_host.canonical
+  title: Delete
+  weight: 10
+
+# Ev_open routing definition
+ev_open.settings_tab:
+  route_name: ev_open.settings
+  title: 'Settings'
+  base_route: ev_open.settings
+entity.ev_open.canonical:
+  route_name: entity.ev_open.canonical
+  base_route: entity.ev_open.canonical
+  title: 'View'
+
+entity.ev_open.edit_form:
+  route_name: entity.ev_open.edit_form
+  base_route: entity.ev_open.canonical
+  title: Edit
+
+entity.ev_open.delete_form:
+  route_name:  entity.ev_open.delete_form
+  base_route:  entity.ev_open.canonical
+  title: Delete
+  weight: 10
+
+# Hours routing definition
+hours.settings_tab:
+  route_name: hours.settings
+  title: 'Settings'
+  base_route: hours.settings
+entity.hours.canonical:
+  route_name: entity.hours.canonical
+  base_route: entity.hours.canonical
+  title: 'View'
+
+entity.hours.edit_form:
+  route_name: entity.hours.edit_form
+  base_route: entity.hours.canonical
+  title: Edit
+
+entity.hours.delete_form:
+  route_name:  entity.hours.delete_form
+  base_route:  entity.hours.canonical
+  title: Delete
+  weight: 10
+

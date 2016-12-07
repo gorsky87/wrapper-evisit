@@ -1,0 +1,52 @@
+# Ev visit menu items definition
+entity.ev_visit.collection:
+  title: 'Ev visit list'
+  route_name: entity.ev_visit.collection
+  description: 'List Ev visit entities'
+  parent: system.admin_structure
+  weight: 100
+
+ev_visit.admin.structure.settings:
+  title: Ev visit settings
+  description: 'Configure Ev visit entities'
+  route_name: ev_visit.settings
+  parent: system.admin_structure
+# Ev host menu items definition
+entity.ev_host.collection:
+  title: 'Ev host list'
+  route_name: entity.ev_host.collection
+  description: 'List Ev host entities'
+  parent: system.admin_structure
+  weight: 100
+
+ev_host.admin.structure.settings:
+  title: Ev host settings
+  description: 'Configure Ev host entities'
+  route_name: ev_host.settings
+  parent: system.admin_structure
+# Ev_open menu items definition
+entity.ev_open.collection:
+  title: 'Ev_open list'
+  route_name: entity.ev_open.collection
+  description: 'List Ev_open entities'
+  parent: system.admin_structure
+  weight: 100
+
+ev_open.admin.structure.settings:
+  title: Ev_open settings
+  description: 'Configure Ev_open entities'
+  route_name: ev_open.settings
+  parent: system.admin_structure
+# Hours menu items definition
+entity.hours.collection:
+  title: 'Hours list'
+  route_name: entity.hours.collection
+  description: 'List Hours entities'
+  parent: system.admin_structure
+  weight: 100
+
+hours.admin.structure.settings:
+  title: Hours settings
+  description: 'Configure Hours entities'
+  route_name: hours.settings
+  parent: system.admin_structure

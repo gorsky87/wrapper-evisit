@@ -1,0 +1,22 @@
+add ev_token entities:
+  title: 'Create new Ev_token entities'
+
+administer ev_token entities:
+  title: 'Administer Ev_token entities'
+  description: 'Allow to access the administration form to configure Ev_token entities.'
+  restrict access: true
+
+delete ev_token entities:
+  title: 'Delete Ev_token entities'
+
+edit ev_token entities:
+  title: 'Edit Ev_token entities'
+
+access ev_token overview:
+  title: 'Access the Ev_token overview page'
+
+view published ev_token entities:
+  title: 'View published Ev_token entities'
+
+view unpublished ev_token entities:
+  title: 'View unpublished Ev_token entities'

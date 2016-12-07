@@ -1,0 +1,21 @@
+# Ev_token routing definition
+ev_token.settings_tab:
+  route_name: ev_token.settings
+  title: 'Settings'
+  base_route: ev_token.settings
+entity.ev_token.canonical:
+  route_name: entity.ev_token.canonical
+  base_route: entity.ev_token.canonical
+  title: 'View'
+
+entity.ev_token.edit_form:
+  route_name: entity.ev_token.edit_form
+  base_route: entity.ev_token.canonical
+  title: Edit
+
+entity.ev_token.delete_form:
+  route_name:  entity.ev_token.delete_form
+  base_route:  entity.ev_token.canonical
+  title: Delete
+  weight: 10
+

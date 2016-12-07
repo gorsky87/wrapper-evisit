@@ -1,0 +1,55 @@
+{#
+/**
+ * @file
+ * Theme override for a field.
+ *
+ * To override output, copy the "field.html.twig" from the templates directory
+ * to your theme's directory and customize it, just like customizing other
+ * Drupal templates such as page.html.twig or node.html.twig.
+ *
+ * Instead of overriding the theming for all fields, you can also just override
+ * theming for a subset of fields using
+ * @link themeable Theme hook suggestions. @endlink For example,
+ * here are some theme hook suggestions that can be used for a field_foo field
+ * on an article node type:
+ * - field--node--field-foo--article.html.twig
+ * - field--node--field-foo.html.twig
+ * - field--node--article.html.twig
+ * - field--field-foo.html.twig
+ * - field--text-with-summary.html.twig
+ * - field.html.twig
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the containing element.
+ * - label_hidden: Whether to show the field label or not.
+ * - title_attributes: HTML attributes for the title.
+ * - label: The label for the field.
+ * - multiple: TRUE if a field can contain multiple items.
+ * - items: List of all the field items. Each item contains:
+ *   - attributes: List of HTML attributes for each item.
+ *   - content: The field item's content.
+ * - entity_type: The entity type to which the field belongs.
+ * - field_name: The name of the field.
+ * - field_type: The type of the field.
+ * - label_display: The display settings for the label.
+ *
+ * @ingroup templates
+ *
+ * @see template_preprocess_field()
+ */
+#}
+    {% for item in items %}
+        {{ word | raw }}
+        <label>If you don't use Jquery add this code in header section</label>
+        <pre>&lt;script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"&gt;&lt;/script&gt;</pre>
+        <pre>&lt;script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"&gt;&lt;/script&gt;</pre>
+
+        <label>To install evisit put this code in head section</label>
+        <pre>&lt;script src="http://172.17.0.4/js/evisit.js"&gt;&lt;/script&gt;</pre>
+        <label>Put this code in your site wher you want render block</label>
+        <pre>&lt;script&gt;ev_settings({login_hash: &quot;{{ item.content }}&quot;,theme: &quot;default&quot;});&lt;/script&gt;</pre>
+
+
+        <label>Paste this code in html where you want render calendar</label>
+        <pre>&lt;div id="evcal"&gt;&lt;/div&gt;</pre>
+    {% endfor %}

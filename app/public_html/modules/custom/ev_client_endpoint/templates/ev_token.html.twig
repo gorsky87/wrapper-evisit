@@ -1,0 +1,22 @@
+{#
+/**
+ * @file ev_token.html.twig
+ * Default theme implementation to present Ev_token data.
+ *
+ * This template is used when viewing Ev_token pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_ev_token()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('ev_token') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

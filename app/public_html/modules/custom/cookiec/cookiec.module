@@ -1,0 +1,43 @@
+<?php
+
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Entity\Entity\EntityFormDisplay;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Component\Plugin\Factory;
+
+/**
+ * Implements hook_permission().
+ */
+function cookiec_permission() {
+  return array(
+    'administer cookiec' => array(
+      'title' => 'Administer CookieC',
+    ),
+  );
+}
+
+/**
+ * Implements hook_theme().
+ */
+function cookiec_theme() {
+  return array(
+    'cookiec_agreed' => array(
+      'template' => 'cookiec_agreed',
+      'variables' => array(
+        'title' => NULL,
+        'body' => NULL,
+        'read_more' => NULL,
+      ),
+    ),
+    'cookiec_info' => array(
+      'template' => 'cookiec_info',
+      'variables' => array(
+        'title' => NULL,
+        'body' => NULL,
+        'read_more' => NULL,
+      ),
+    ),
+  );
+}
