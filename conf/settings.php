@@ -1,4 +1,9 @@
 <?php
+
+header("Access-Control-Allow-Origin: *");
+header("access-control-allow-headers: content-type, accept");
+
+
 $databases['default']['default'] = array (
   'database' => 'db',
   'username' => 'user',
