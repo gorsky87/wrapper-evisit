@@ -15,13 +15,13 @@ uncomment only this settings which you want to override
 #
 # DBHOST = "mysql"
 #
-# DBDUMP_FILE = "database.sql.tar.gz"
+DBDUMP_FILE = "databases/database.sql.tar.gz"
 #
 # FILES_DST = "sites/default/"
 #
 # FILES_ARCHIVE = "files.tar.gz"
 #
-# TMP_PATH = "/tmp"
+TMP_PATH = "/tmp"
 #
 DRUPAL_LOCATION = "app/public_html"
 #
