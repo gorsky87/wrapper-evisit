@@ -7,7 +7,7 @@ web:
   links:
     - mysql:mysql
   environment:
-    VIRTUAL_HOST: api.visitwrapper.dev
+    VIRTUAL_HOST: api.omniait.pl
 web2:
   image: droptica/drupal-apache:7-xdebug
   volumes:
@@ -17,7 +17,7 @@ web2:
   links:
     - mysql:mysql
   environment:
-    VIRTUAL_HOST: visitwrapper.dev
+    VIRTUAL_HOST: omniait.pl
 web3:
   image: droptica/drupal-apache:7-xdebug
   volumes:
