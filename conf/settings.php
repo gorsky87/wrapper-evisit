@@ -5,9 +5,9 @@ header("access-control-allow-headers: content-type, accept");
 
 
 $databases['default']['default'] = array (
-  'database' => 'db',
-  'username' => 'user',
-  'password' => 'pass',
+  'database' => 'drupal_As8tig0lhrbLfGZ',
+  'username' => 'drupal_As8tig0lhrbLfGZ',
+  'password' => '02OGpDC60NzEiPe',
   'prefix' => '',
   'host' => 'mysql',
   'port' => '3306',

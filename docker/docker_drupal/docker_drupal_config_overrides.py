@@ -23,13 +23,13 @@ DBDUMP_FILE = "databases/database.sql.tar.gz"
 #
 TMP_PATH = "/tmp"
 #
-DRUPAL_LOCATION = "app/public_html"
+DRUPAL_LOCATION = "app/drupal"
 #
 # SITE_DIRECTORY = "default"
 #
-# SITE_URI = "dockertest.dev"
+ SITE_URI = "visitwrapper.dev"
 #
-# DRUPAL_ADMIN_USER = 'oitadmin'
+# DRUPAL_ADMIN_USER = 'admin'
 #
 # DRUPAL_ADMIN_PASS = '123'
 #

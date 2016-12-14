@@ -2,12 +2,14 @@ web:
   build: ./docker/Dockerfiles/custom-web
   volumes:
     - ./docker/php.ini:/usr/local/etc/php/conf.d/php.ini:ro
-    - ./app/public_html:/var/www/html
+    - ./app/drupal:/var/www/html
     - ./docker/000-default.conf:/etc/apache2/sites-enabled/000-default.conf:ro
   links:
     - mysql:mysql
   environment:
-    VIRTUAL_HOST: api.omniait.pl
+    VIRTUAL_HOST: api.omniait.pl, api.visitwrapper.dev
+
+
 web2:
   image: droptica/drupal-apache:7-xdebug
   volumes:
@@ -17,7 +19,9 @@ web2:
   links:
     - mysql:mysql
   environment:
-    VIRTUAL_HOST: omniait.pl
+    VIRTUAL_HOST: gorskipawel.pl, visitwrapper.dev
+
+
 web3:
   image: droptica/drupal-apache:7-xdebug
   volumes:
@@ -27,16 +31,18 @@ web3:
     - mysql:mysql
   environment:
     VIRTUAL_HOST: client.visitwrapper.dev
+
+
 mysql:
   image: mysql:5.7
   volumes:
     - ./docker/database:/var/lib/mysql
     - ./docker/my.conf:/etc/mysql/conf.d/custom.cnf:ro
   environment:
-    MYSQL_ROOT_PASSWORD: 123
-    MYSQL_DATABASE: db
-    MYSQL_USER: user
-    MYSQL_PASSWORD: pass
+    MYSQL_ROOT_PASSWORD: qD8oYT8bd8GuNxL
+    MYSQL_DATABASE: drupal_As8tig0lhrbLfGZ
+    MYSQL_USER: drupal_As8tig0lhrbLfGZ
+    MYSQL_PASSWORD: 02OGpDC60NzEiPe
 
 phpmyadmin:
   image: nazarpc/phpmyadmin
